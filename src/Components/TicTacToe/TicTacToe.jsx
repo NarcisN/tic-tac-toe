@@ -13,7 +13,7 @@ const TicTacToe = () => {
       return 0;
     }
     if(count%2===0){
-      e.target.innerHTML = `<img src=`${cross_icon}`>`;
+      e.target.innerHTML = `<img src= `${cross_icon}`>` ;
       data[num] ='x';
       setCount(++count);
     }
